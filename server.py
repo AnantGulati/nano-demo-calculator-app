@@ -8,8 +8,8 @@ def greeting():
     return ''
 
 @app.route("/calculator/add", methods=['POST'])
-def add():
-    return ''
+def add(a,b):
+    return a+b
 
 @app.route("/calculator/subtract", methods=['POST'])
 def subtract():
